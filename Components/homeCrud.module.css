@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#nav{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:rgb(38, 30, 30);
+}
+#nav>a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    text-shadow: 4px 4px 4px red;
+}
+#MainForm{
+   height: 85vh;
+   width: 100%;
+   background:linear-gradient(rgb(238, 238, 5),rgb(212, 212, 162));
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+#MainForm>form{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(96, 96, 62);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(42, 41, 41);
+}
+#MainForm input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+#MainForm input:focus{
+    outline: none;
+    color: aliceblue;
+}
+#MainForm>Form>h2{
+color: yellow;
+}
+#MainForm>form>button{
+    height:30px ;
+    width: 100px;
+    background-color:black;
+    color: white;
+    border: none;
+    border-radius: 50px;
+}
+#MainForm>form>button:hover{
+    transform: scale(1.1);
+}
+#profile{
+    height: 100vh;
+    width: 100%;
+    /* background-color:rgb(193,152,152); */
+    background:linear-gradient(rgb(238, 238, 5),rgb(212, 212, 162));
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    
+}
+#cards{
+    height: 250px;
+    width: 200px;
+    /* background-color: rgb(38, 30, 30); */
+    background-color: rgb(96, 96, 62);
+    color:blanchedalmond;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 5px 5px black;
+}
+#cards:hover{
+    transform: scale(1.1);
+}
+
+#edit{
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:wheat;
+    /* color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: row; */
+}
+#edit:hover{
+    transform: scale(1.2);
+}
+
+#delete{
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:black;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#delete:hover{
+    transform: scale(1.2);
+}
+#form{
+    height: 80vh;
+    width: 100%;
+    /* background-color: rgb(193,152,152); */
+    background:linear-gradient(rgb(238, 238, 5),rgb(212, 212, 162));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+}
+#box{
+    height: 280px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(96, 96, 62);
+    /* border: 5px solid wheat; */
+    box-shadow: 0px 0px 8px 5px black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#box label{
+    color: yellow;
+}
+#form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+#form input:focus{
+    outline: none;
+    color: aliceblue;
+}
+#form button{
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: black;
+    color: wheat;
+    box-shadow: 0px 0px 5px 3px blueviolet;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#done:hover{
+    transform: scale(1.2);
+}
+
+

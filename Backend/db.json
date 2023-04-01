@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "name": "Sainath",
+      "salary": "5649755",
+      "company": "tcs",
+      "id": 1
+    },
+    {
+      "name": "ram",
+      "salary": "500000",
+      "company": "kkkkk",
+      "id": 6
+    },
+    {
+      "name": "kanhu",
+      "salary": "987654",
+      "company": "yuuuuuu",
+      "id": 7
+    },
+    {
+      "name": "subha",
+      "salary": "965832",
+      "company": "yo",
+      "id": 8
+    },
+    {
+      "name": "rama",
+      "salary": "98654",
+      "company": "poja",
+      "id": 9
+    },
+    {
+      "name": "preetam",
+      "salary": "9000000",
+      "company": "IGIT,sarang",
+      "id": 10
+    },
+    {
+      "name": "mukesh",
+      "salary": "987654",
+      "company": "shoppal tech",
+      "id": 11
+    },
+    {
+      "name": "preetam",
+      "salary": "254553",
+      "company": "tcs",
+      "id": 13
+    },
+    {
+      "name": "Rocky",
+      "salary": "1500000",
+      "company": "KGF",
+      "id": 14
+    },
+    {
+      "name": "Bahubali",
+      "salary": "100",
+      "company": "Mahismati",
+      "id": 15
+    }
+  ]
+}
